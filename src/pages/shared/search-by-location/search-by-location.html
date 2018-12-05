@@ -1,0 +1,38 @@
+<!--
+  Generated template for the SearchByLocationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>BUSCAR</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="geoMsg">
+    <ion-label><b>Habilite a geolocalização para encontrar<br>treinadores!</b></ion-label>
+  </div>
+
+  <a (click)="pushMapPage()">
+    <ion-label>Toque no ícone para ver o mapa!</ion-label>
+    <ion-icon id="icon" name="pin" md="md-pin"></ion-icon>
+  </a>
+
+  <div id="divOr">
+    <ion-label id="or"><b>____________ OU ____________</b></ion-label>
+  </div>
+
+  <div id="adrMsg">
+    <ion-label><b>Digite seu endereço abaixo para enconta-los</b></ion-label>
+  </div>
+
+  <div id="adrInput">
+    <ion-item>
+      <ion-label floating>Endereço</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  </div>
+</ion-content>

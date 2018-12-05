@@ -1,0 +1,31 @@
+<!--
+  Generated template for the MyProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button secondary menuToggle>
+        <ion-icon name="md-menu"></ion-icon>
+    </button>
+  <ion-title text-center>Meu Perfil</ion-title>
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (click)="takePicture()">Atualizar Foto (Camera)</button>
+  <button ion-button (click)="getImageFromGalery()">Atualizar Foto (Galeria)</button>
+  <button ion-button (click)="cropImage()">Cortar</button>
+
+  <p><img src="{{image}}"></p>
+
+  <button ion-button (click)="sendImage()" *ngIf="showBtnSend">ENVIAR</button>
+  <p>{{msgSent}}</p>
+
+  <div class="myImg">
+     <img src="{{theImage}}">
+  </div>
+</ion-content>

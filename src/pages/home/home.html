@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button secondary menuToggle>
+          <ion-icon name="md-menu"></ion-icon>
+      </button>
+    <ion-title text-center>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="no-scroll">
+  <div>
+    <h2>Welcome to Trainer!</h2>
+  </div>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsAerobica()">
+      <img src="assets/imgs/search/aerobics.jpg" />
+      <div class="band">
+        <div class="card-subtitle">Aeróbica</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsAlongamento()">
+      <img src="assets/imgs/search/stretching.jpg" />
+      <div class="band">
+        <div class="card-subtitle">Alongamento</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsArtesMarciais()">
+      <img src="assets/imgs/search/martial arts.jpeg" />
+      <div class="band">
+        <div class="card-subtitle">Artes Marciais</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsBoxe()">
+      <img src="assets/imgs/search/boxing.jpg" />
+      <div class="band">
+        <div class="card-subtitle">Boxe</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsCorrida()">
+      <img src="assets/imgs/search/run.png" />
+      <div class="band">
+        <div class="card-subtitle">Corrida</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsJiuJitsu()">
+      <img src="assets/imgs/search/jiu-jitsu.jpg" />
+      <div class="band">
+        <div class="card-subtitle">Jiu-Jitsu</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsMusculacao()">
+      <img src="assets/imgs/search/bodybuilding.png" />
+      <div class="band">
+        <div class="card-subtitle">Musculação</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <ion-card class="ionCard">
+    <a href="#" (click)="getSkillsNatacao()">
+      <img src="assets/imgs/search/swimming.png" />
+      <div class="band">
+        <div class="card-subtitle">Natação</div>
+      </div>
+    </a>
+  </ion-card>
+
+  <!-- <button (click)="pushPageCustomers()" ion-button color="dark" round>Lista de Clientes (Teste)</button>
+  <button (click)="pushPageTrainers()" ion-button color="dark" round>Lista de Trainers (Teste)</button> -->
+
+  <!-- <br><br>
+  Seja bem vindo: {{meuNome}} -->
+  <!--PEGA O VALOR PARA A VARIAVEL (REAL TIME)-->
+  <!-- <br><br>
+  <input type="text" [(ngModel)]="meuNome"> -->
+  <!--PASSA O VALOR PARA A VARIAVEL-->
+  <!-- Uai: {{info}} -->
+  <!--PEGA O VALOR PARA A VARIAVEL (REAL TIME)-->
+  <!-- <br><br>
+  <button (click)="pushPageStartProto()" ion-button color="dark" round>Enter into the Proto</button> -->
+
+  <!-- <button (click)="takePicture()" ion-button color="dark">Foto</button>
+
+  <p><img src="{{myPicture}}"></p> -->
+
+    <!-- <br><br> -->
+</ion-content>

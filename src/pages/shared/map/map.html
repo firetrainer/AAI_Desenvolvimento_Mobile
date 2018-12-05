@@ -1,0 +1,49 @@
+<!--
+  Generated template for the MapPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<!-- <div #map id="mapDiv">
+  <div id="adrInput">
+    <ion-item>
+      <ion-label floating>Endereço</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  </div>
+
+  <div id="btnMap">
+    <a><ion-icon id="icon" name="options"></ion-icon></a>
+  </div>
+
+  <div id="btnMap2">
+    <a><ion-icon id="icon" name="locate"></ion-icon></a>
+  </div>
+</div> -->
+
+<ion-header>
+    <ion-navbar>
+      <ion-title text-center>Mapa</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="no-scroll">
+    <!-- <ion-list>
+      <ion-item>
+        <ion-label>De onde?</ion-label>
+        <ion-input type="text" [(ngModel)]="originPosition"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Para onde?</ion-label>
+        <ion-input type="text" [(ngModel)]="destinationPosition"></ion-input>
+      </ion-item>
+  
+      <div padding>
+        <button ion-button (click)="calculateRoute()">Traçar rota</button>
+      </div>
+    </ion-list> -->
+  
+    <div #map id="map"></div>
+  </ion-content>

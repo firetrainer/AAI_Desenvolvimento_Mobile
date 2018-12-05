@@ -1,0 +1,48 @@
+<!--
+  Generated template for the SchedulePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>AGENDAR</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="container">
+  <form (ngSubmit)="sendData()" [formGroup]="scheduleForm">
+    <ion-list inset>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Nome do Cliente" formControlName="customerName"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Nome do Trainer" formControlName="trainerName"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Data do Compromisso</ion-label>
+        <ion-datetime displayFormat="DD MM YYYY" [(ngModel)]="timeScdl.month" formControlName="dateSchedule"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Horário</ion-label>
+        <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="timeScdl.time" formControlName="timeSchedule"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-input type="text" placeholder="Local de encontro" formControlName="gatheringPlace"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <div padding-horizontal>
+      <div class="form-error">{{msgError}}</div>
+      <button ion-button block icon-left color="primary" style="width: 50vw;" type="submit" [disabled]="!scheduleForm.valid">
+        <ion-icon ios="ios-list-box" md="md-list-box"></ion-icon>Agendar
+      </button>
+    </div>
+  </form>
+</ion-content>

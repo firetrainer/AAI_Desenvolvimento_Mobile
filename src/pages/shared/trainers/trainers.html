@@ -1,0 +1,44 @@
+<!--
+  Generated template for the TrainersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Personal Trainers de {{param}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+  <ion-card *ngFor="let trnr of trainerListFB_Skill01 | async" class="CardColor">
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img [src]="trnr.imgPath">
+        </ion-thumbnail>
+        <h3 class="lightColor">Exp: {{trnr.exp_date | date:'MM/dd/yyyy' }}</h3>
+        <p>{{nameFirst}}</p>
+        <p>{{ageFirst}} anos</p>
+        <button ion-button class="button" (click)="openProfile(1, trnr.id)">Perfil</button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card *ngFor="let trnr of trainerListFB_Skill02 | async" class="CardColor">
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img [src]="trnr.imgPath">
+          </ion-thumbnail>
+          <h3 class="lightColor">Exp: {{trnr.exp_date | date:'MM/dd/yyyy' }}</h3>
+          <p>{{nameSecond}}</p>
+          <p>{{ageSecond}} anos</p>
+          <button ion-button class="button" (click)="openProfile(2, trnr.id)">Perfil</button>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+</ion-content>

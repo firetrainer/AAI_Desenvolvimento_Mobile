@@ -1,0 +1,14 @@
+npm install firebase angularfire2 --save
+npm i rxjs@^6.0 rxjs-compat
+
+Crypt
+npm install ts-md5 --save
+
+Gelocation
+npm install -g cordova
+ionic cordova platform add android
+ionic cordova plugin add cordova-plugin-geolocation --variable GEOLOCATION_USAGE_DESCRIPTION="To locate you"
+npm install --save @ionic-native/geolocation
+
+Map API Key
+AIzaSyCtdVKGt_GcJ0xMUJQC1e3KyKV_WEdt4ss

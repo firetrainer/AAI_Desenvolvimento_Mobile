@@ -1,0 +1,47 @@
+page-search-by-location {
+    #icon{
+        width: 90px;
+        height: 90px;
+        margin-left: 40%;
+        font-size: 8em;
+        margin-top: 15%;
+    }
+
+    ion-item{
+        top: 35%;
+    }
+
+    #or{
+        position: absolute;
+        color: blue;
+        margin-left: 22%;
+        bottom: 38%;
+    }
+
+    #geoMsg{
+        color: blue;
+        margin-top: 10%;
+        margin-left: 4%;
+        width: 96%;
+        height: 10%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+
+    #adrMsg, #adrInput{
+        position: absolute;
+        margin-left: 4%;
+        width: 88%;
+        height: 10%;
+        text-align: center;
+        font-size: 1.1em;
+        color: blue;
+        bottom: 20%;
+    }
+
+    #adrInput{
+        margin-left: 2%;
+        bottom: 15%;
+    }
+}

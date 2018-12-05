@@ -1,0 +1,25 @@
+https://maps.googleapis.com/maps/api/staticmap?zoom=15&size=400x400&markers=color:red|Rua Iguassú - Concórdia, Belo Horizonte - MG&key=AIzaSyCtdVKGt_GcJ0xMUJQC1e3KyKV_WEdt4ss
+
+
+https://www.youtube.com/watch?v=Loz1yAkvLrY
+
+https://github.com/ionic-team/ionic-native-google-maps/blob/master/documents/README.md
+
+
+
+
+Update available 4.1.2 -> 4.5.0
+Run npm i -g ionic to update
+
+npm install -g firebase @ionic-native/camera --save
+ionic cordova plugin add cordova-plugin-camera
+
+macumba
+ionic cordova run android -l
+
+https://www.youtube.com/watch?v=llg43FiFpLs
+
+
+
+
+https://github.com/cserrano3/Sprintr

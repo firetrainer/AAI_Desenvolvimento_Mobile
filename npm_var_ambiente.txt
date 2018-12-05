@@ -1,0 +1,75 @@
+DEPENDENCES
+
+npm install -g json-server
+npm install firebase angularfire2 --save
+
+------------------------------------------------------
+
+
+--rodar dentro da pasta onde o projeto será criado
+
+SET HTTPS_PROXY=http://proxy:3128
+SET HTTP_PROXY=http://proxy:3128
+
+npm install -g ionic
+
+npm install -E -D @ionic/lab
+
+------------------------
+
+creating a new project
+
+ionic start nameProject
+
+------------------------
+
+creating new page(component)
+
+ionic g page namePage --no-module
+
+-------------
+installing json server
+
+npm install -g json-server
+
+code .
+
+----------------
+
+ionic serve
+
+----------------
+
+on navigator
+
+http://localhost:8100/ionic-lab
+
+--------------
+
+https://ionicframework.com/docs/components/#overview
+
+---------
+
+app do Tolentino Goocon
+
+---------
+
+ionic generate component componentName --no module
+
+componente pode ser importado diretamente em apps app-modules.ts
+
+import {componentModule} from 'path'
+
+---------------
+event binding -> chamada de metodo
+
+property binding -> passagem de variavel do ts para html
+
+2 way binding -> processo completo [(ngModel)]="variavel"
+
+decorator imput -> passagem de parametros entre os componentes ex: ts para outro ts de outro componente (Input)
+passagem do parametro -> <user-profile [user]="variavel"></<user-profile>
+
+---------------------
+
+singletom -> instancia unica

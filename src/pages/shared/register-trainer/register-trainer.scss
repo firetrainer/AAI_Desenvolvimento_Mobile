@@ -1,0 +1,27 @@
+page-register-trainer {
+    .no-scroll .scroll-content{
+        overflow: auto;
+    }
+
+    .myImage{
+        padding-top: 15px;
+        width: 100%;
+        height: 10%;
+    }
+
+    .icn{
+        font-size: 2.3em;
+    }
+
+
+    #btn{
+        color: white;
+        background-color: $dark-purple;
+        font-size: 1.0em;
+        text-align: center;
+    }
+
+    .lbl{
+        text-decoration-color: green;
+    }
+}

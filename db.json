@@ -1,0 +1,307 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "nome": "Manuel Squeira Silva",
+      "age": 35,
+      "cpf": "077.321.458-25",
+      "telefone": 31975753030,
+      "email": "manuel@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua Cobre, 400 - Crizeiro"
+    },
+    {
+      "id":2,
+      "nome": "Patrícia Ferreira de Souza",
+      "age": 23,
+      "cpf": "127.321.058-29",
+      "telefone": 31995829875,
+      "email": "patricia@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua NãoSei, 250 - SeiTbmNão"
+    },
+    {
+      "id":3,
+      "nome": "Débora Abreu Aguiar",
+      "age": 39,
+      "cpf": "254.654.428-05",
+      "telefone": 31983541232,
+      "email": "debora@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua SeidasQuantas, 1001 - Fazer O Que!"
+    },
+    {
+      "id":4,
+      "nome": "Enrique Dias Ernesto",
+      "age": 50,
+      "cpf": "158.654.789-08",
+      "telefone": 31999871598,
+      "email": "enrique@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua Ionic, 2018 - Tolentino"
+    },
+    {
+      "id":5,
+      "nome": "Paulo Rodrigues da Rocha",
+      "age": 27,
+      "cpf": "077.321.458-25",
+      "telefone": 31974558999,
+      "email": "paulo@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua EstaPior, 800 - SemIdeias"
+    },
+    {
+      "id":6,
+      "nome": "Monique Feliciana Correa",
+      "age": 19,
+      "cpf": "456.132.178-00",
+      "telefone": 31984116566,
+      "email": "monique@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-customers/img.png",
+      "location": "Rua Finalmente, 380 Acabou"
+    }  
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Pedro Barbosa Silva",
+      "age": 35,
+      "cpf": "077.321.458-25",
+      "telefone": 31975753030,
+      "email": "pedro@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr01.jpg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Alongamento",
+	  "skill_02": "Aeróbica",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 3,
+	  "location": "Rua Iguassú, 250 - Concórdia",
+      "number": "250",
+      "neighborhood": "Concórdia",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "zipCode": "31110-600"
+    },
+    {
+      "id":2,
+      "name": "Sandra Ferreira Zanini",
+      "age": 23,
+      "cpf": "127.321.058-29",
+      "telefone": 31995829875,
+      "email": "sandra@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr02.jpg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Musculação",
+	  "skill_02": "Corrida",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 4,
+	  "location": "Rua Cobre, 400 - Cruzeiro",
+      "number": "400",
+      "neighborhood": "Cruzeiro",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "zipCode": "35550-901"
+    },
+    {
+      "id":3,
+      "name": "Thamara da Silva Conceição",
+      "age": 39,
+      "cpf": "254.654.428-05",
+      "telefone": 31983541232,
+      "email": "thamara@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr03.jpeg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Natação",
+	  "skill_02": "Musculação",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 2,
+	  "location": "Rua Teste3, 495 - Bairro Teste3",
+      "number": "552",
+      "neighborhood": "Bairro Teste",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "zipCode": "25554-995"
+    },
+    {
+      "id":4,
+      "name": "Rodrigo Manuel Siqueira",
+      "age": 50,
+      "cpf": "158.654.789-08",
+      "telefone": 31999871598,
+      "email": "rodrigo@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr04.jpg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Jiu-Jitsu",
+	  "skill_02": "Boxe",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 3,
+	  "location": "Rua Ponte Nova, 1201 - Floresta",
+      "number": "1201",
+      "neighborhood": "Floresta",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "zipCode": "21214-354"
+    },
+    {
+      "id":5,
+      "name": "Luciano Ferreira da Rocha",
+      "age": 27,
+      "cpf": "077.321.458-25",
+      "telefone": 31974558999,
+      "email": "luciano@gmail.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr05.jpg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Corrida",
+	  "skill_02": "Artes Marciais",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 4,
+	  "location": "Rua Teste2, 215 - Bairro Teste2",
+      "number": "552",
+      "neighborhood": "Bairro Teste",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "zipCode": "25554-995"
+    },
+    {
+      "id":6,
+      "name": "Vera Lúcia Gomes",
+      "age": 19,
+      "cpf": "456.132.178-00",
+      "telefone": 31984116566,
+      "email": "vera@outlook.com",
+	  "password": "1234",
+	  "imgPath": "assets/imgs/user-trainers/ptr06.jpg",
+	  "about_me": "Este é o teste de informações a respeito do personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "skill_01": "Aeróbica",
+	  "skill_02": "Corrida",
+	  "exp_date": "25/08/2015",
+	  "evaluation_level": 3.5,
+	  "evaluation_count": 221,
+	  "qtt_students": 11,
+	  "qtt_classes": 102,
+	  "experience": 5,
+	  "location": "Rua Teste, 552 - Bairro Teste",
+      "number": "552",
+      "neighborhood": "Bairro Teste",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "zipCode": "25554-995"
+    }    
+  ],
+  "evaluation": [
+    {
+      "id": 1,
+      "id_customer": 5,
+	  "id_trainer": 3,
+      "description": "Este é o teste de informações a respeito da avaliação personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "date": "25/08/2018",
+	  "classification": "Excelente Atendimento",
+	  "evaluation": 5
+    },
+	{
+      "id": 2,
+      "id_customer": 1,
+	  "id_trainer": 6,
+      "description": "Este é o teste de informações a respeito da avaliação personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "date": "05/09/2018",
+	  "classification": "Bom Atendimento",
+	  "evaluation": 4
+    },
+	{
+      "id": 3,
+      "id_customer": 2,
+	  "id_trainer": 3,
+      "description": "Este é o teste de informações a respeito da avaliação personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "date": "28/10/2018",
+	  "classification": "Excelente Atendimento",
+	  "evaluation": 4
+    },
+	{
+      "id": 4,
+      "id_customer": 4,
+	  "id_trainer": 2,
+      "description": "Este é o teste de informações a respeito da avaliação personal trainer, por tanto tudo o que estiver escrito dentro desta div até o presente momento pormanece inválido, mas em breve serão substituídas por insformações que simulam um perfil real!",
+	  "date": "03/11/2018",
+	  "classification": "Bom Atendimento",
+	  "evaluation": 5
+    }
+  ],
+  "students-ratio": [
+    {
+      "id": 1,
+	  "id_trainer": 5,
+      "id_customer": 3
+    },
+	{
+      "id": 2,
+	  "id_trainer": 4,
+      "id_customer": 2
+    },
+	{
+      "id": 3,
+	  "id_trainer": 5,
+      "id_customer": 1
+    },
+	{
+      "id": 4,
+	  "id_trainer": 5,
+      "id_customer": 6
+    },
+	{
+      "id": 5,
+	  "id_trainer": 2,
+      "id_customer": 3
+    },
+	{
+      "id": 6,
+	  "id_trainer": 3,
+      "id_customer": 4
+    },
+	{
+      "id": 7,
+	  "id_trainer": 3,
+      "id_customer": 5
+    },
+	{
+      "id": 8,
+	  "id_trainer": 1,
+      "id_customer": 1
+    },
+	{
+      "id": 9,
+	  "id_trainer": 1,
+      "id_customer": 2
+    }
+  ]
+}

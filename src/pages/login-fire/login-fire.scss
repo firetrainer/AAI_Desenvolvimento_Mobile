@@ -1,0 +1,18 @@
+page-login-fire {
+    .no-scroll .scroll-content{
+        overflow: auto;
+    }
+
+
+    ion-input{
+        color: aqua;
+    }
+
+    #register, #loginBtn{
+
+        height: 60px;
+        // bottom: 16%;
+        color: white;
+        font-size: 1.7em;
+    }
+}

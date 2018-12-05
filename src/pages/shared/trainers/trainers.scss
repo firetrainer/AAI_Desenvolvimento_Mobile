@@ -1,0 +1,24 @@
+page-trainers {
+    .no-scroll .scroll-content{
+        overflow: auto;
+    }
+
+    .ionCard{
+        height: 180px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .dark{
+        background-color:#1E1E1E;
+        color: aqua;
+    }
+
+    .lightColor{
+        color: rgb(161, 161, 161);
+    }
+
+    .darkItem{
+        background-color:rgb(36, 36, 36);
+    }
+}

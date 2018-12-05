@@ -1,0 +1,1 @@
+export const TRAINER_API = 'http://localhost:3000';

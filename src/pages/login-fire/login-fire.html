@@ -1,0 +1,56 @@
+<!--
+  Generated template for the LoginFirePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>Login Trainer</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+  <form (ngSubmit)="login()" [formGroup]="loginForm">
+    <ion-list inset>
+      <ion-item>
+        <ion-label stacked>Email</ion-label>
+        <ion-input type="text" formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Senha</ion-label>
+        <ion-input type="password" formControlName="password"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <div padding-horizontal>
+      <div class="form-error">{{loginError}}</div>
+      <button ion-button icon-left full type="submit" id="loginBtn">
+        <ion-icon ios="ios-at" md="md-at"></ion-icon>Entrar
+      </button>
+      <button ion-button icon-left full type="button" id="register" (click)="signup()">
+        <ion-icon name="person-add"> </ion-icon> Cadastrar
+      </button>
+      <div class="login-footer">
+        <p>
+          <a href="#">Esqueceu a senha?</a> Se você é um novo usuário, clique em registrar.
+        </p>
+      </div>
+      <ion-list>
+        <button ion-button icon-left block class="button" (click)="loginWithGoogle()">
+          <ion-icon name="logo-google"></ion-icon>
+          Login com Google
+        </button>
+        <!-- <button ion-button icon-left block clear (click)="signup()">
+          <ion-icon name="person-add"></ion-icon>
+          Registrar
+        </button> -->
+
+        <!-- <button (click)="pushPageStartProto()" ion-button color="" round>CLIQUE AQUI PARA TESTAR</button> -->
+      </ion-list>
+    </div>
+  </form>
+</ion-content>
