@@ -3,6 +3,12 @@ page-home {
         overflow: auto;
     }
 
+    .welcome--header {
+        color: $dark-purple;
+        display: flex;
+        justify-content: center;
+    }
+
     .ionCard{
         height: 180px;
         position: relative;
@@ -23,9 +29,9 @@ page-home {
         position: absolute;
         bottom: 1%;
         width: 100%;
-        margin-left: 10px;
         color: #fff;
+        padding: 10px 0 0 15px;
         background-color: rgba(37, 51, 43, 0.747);
-        height: 18%;
+        height: 25%;
     }
 }
