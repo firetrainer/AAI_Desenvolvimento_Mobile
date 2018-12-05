@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController, AlertController, Alert, Loading } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, AlertController, Loading, ToastController } from 'ionic-angular';
 import { ScheduleService } from '../../../providers/fb-schedule/schedule.service';
 import { Schedule } from '../../../providers/fb-schedule/schedule.model';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { HomePage } from '../../home/home';
 /**
  * Generated class for the SchedulePage page.
  *
@@ -26,7 +25,8 @@ export class SchedulePage {
   scheduleForm: FormGroup;
 
   constructor(public fb: FormBuilder, public navCtrl: NavController, public navParams: NavParams,
-    public loadingCtrl: LoadingController, public alertCtrl: AlertController, private sclSrvc:ScheduleService) 
+    public loadingCtrl: LoadingController, private toast: ToastController,
+    public alertCtrl: AlertController, private sclSrvc:ScheduleService) 
     {
       this.scheduleForm = this.fb.group(
         {
@@ -66,21 +66,12 @@ export class SchedulePage {
     this.sclSrvc.sendSchedule(scdl).then(
       () => {
         loading.dismiss().then(() => {
-          const alert: Alert = this.alertCtrl.create({
-            message: 'Agendamento Registrado!',
-            buttons: [{ text: 'Ok'}],
-          });
-          alert.present();
-          
+          this.toast.create({message: 'Treinamento agendado com sucesso', duration: 3000}).present();
         });
       },
       error => {
         loading.dismiss().then(() => {
-          const alert: Alert = this.alertCtrl.create({
-            message: error.message,
-            buttons: [{ text: 'Ok', role: 'cancelar' }],
-          });
-          alert.present();
+          this.toast.create({message: 'Erro ao agendar treinamento', duration: 3000}).present();
         });
       }
     );

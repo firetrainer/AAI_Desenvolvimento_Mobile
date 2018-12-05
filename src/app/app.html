@@ -6,11 +6,11 @@
     </ion-header>
     <ion-content>
         <ion-list>
-            <button manuClose ion-item *ngFor="let pg of pages" (click)="pushHomePage(pg)">
+            <button menuClose ion-item *ngFor="let pg of pages" (click)="pushHomePage(pg)">
                 {{pg.title}}
             </button>
 
-            <button manuClose ion-item (click)="Logoff()">
+            <button menuClose ion-item (click)="logoff()">
                 <ion-icon name="exit"></ion-icon>Sair
             </button>
         </ion-list>

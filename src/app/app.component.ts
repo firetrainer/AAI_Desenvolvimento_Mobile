@@ -46,6 +46,10 @@ export class MyApp {
     });
   }
 
+  logoff() {
+    this.auth.signOut();
+  }
+
   pushHomePage(page) {
     this.nav.setRoot(page.component);
     this.activePage = page;
