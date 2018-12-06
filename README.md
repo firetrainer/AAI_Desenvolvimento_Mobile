@@ -25,7 +25,7 @@ Para build do apk:
 ```sh
 $ cd trainer
 $ npm install
-$ ionic corodova build android
+$ ionic cordova build android
 ```
 Acessar o path ```trainer/platforms/android/app/build/outputs/apk/debug``` e transfeir o `.apk` gerado para seu aparelho e instalá-lo conforme a plataforma Android.
 
