@@ -15,7 +15,7 @@ O Trainer requer ao menos
 
 Rodando web:
 ```
-$ cd trainer
+$ cd AAI_Desenvolvimento_Mobile
 $ npm install
 $ ionic serve
 ```
@@ -23,7 +23,7 @@ $ ionic serve
 Para build do apk: 
 
 ```sh
-$ cd trainer
+$ cd AAI_Desenvolvimento_Mobile
 $ npm install
 $ ionic cordova build android
 ```
